@@ -1,0 +1,60 @@
+body, html{
+    padding: 50px;
+    display: flex;
+}
+
+.stoplight{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100px;
+    height: 300px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#linker-stoplight-container{
+    margin-right: 50px;
+}
+
+.stoplight-label{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 30px;
+    width: 60px;
+    height: 50px;
+    background-color:gray;
+    border-radius: 10px 10px 0 0;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+.light{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    border-radius: 50%;
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+}
+
+#btn-container{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+
+.btn{
+    margin-top: 10px;
+}
+
