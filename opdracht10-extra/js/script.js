@@ -73,3 +73,5 @@ function zetStoplichtAOp(sKleur){
         verkeerMagRijdenStoplichtB('rood');
     }
 }
+
+          //het is helemaal automatisch druk alleen op Groen.
