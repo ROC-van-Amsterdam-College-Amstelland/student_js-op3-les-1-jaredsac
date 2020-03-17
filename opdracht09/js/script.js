@@ -50,9 +50,18 @@ function zetStoplichtAOp(sKleur){
     }
     else if(sKleur == "oranje"){
         //JOUW CODE HIER
+        document.getElementById(strStoplichtABoven).style.backgroundColor = lichtUit;
+        document.getElementById(strStoplichtAMidden).style.backgroundColor = lichtOranje;
+        document.getElementById(strStoplichtAOnder).style.backgroundColor = lichtUit;
+        verkeerMagRijdenStoplichtB(true);
+        
     }
     else{
         //JOUW CODE HIER
+        document.getElementById(strStoplichtABoven).style.backgroundColor = lichtUit;
+        document.getElementById(strStoplichtAMidden).style.backgroundColor = lichtUit;
+        document.getElementById(strStoplichtAOnder).style.backgroundColor = lichtGroen;
+        verkeerMagRijdenStoplichtB(true);
     }
 }
 
