@@ -40,11 +40,16 @@ function toggleRoodLicht(){
         document.getElementById("left-light-top").style.backgroundColor = "red";
         roodLichtStaatAan = true;
         //JOUW CODE HIER
+        document.getElementById("right-light-bottom").style.backgroundColor = "green";
+        roodLichtStaatAan = true;
+        
     }
     else{
         document.getElementById("left-light-top").style.backgroundColor = "gray";
         roodLichtStaatAan = false;
         //JOUW CODE HIER
+        document.getElementById("right-light-bottom").style.backgroundColor = "gray";
+        roodLichtStaatAan = false;
     }
 }
 
@@ -64,10 +69,14 @@ function toggleGroenLicht(){
         document.getElementById("left-light-bottom").style.backgroundColor = "green";
         groenLichtStaatAan = true;
         //JOUW CODE HIER
+        document.getElementById("right-light-top").style.backgroundColor = "red";
+        groenLichtStaatAan = true;
     }
     else{
         document.getElementById("left-light-bottom").style.backgroundColor = "gray";
         groenLichtStaatAan = false;
         //JOUW CODE HIER
+        document.getElementById("right-light-top").style.backgroundColor = "gray";
+        groenLichtStaatAan = false;
     }
 }
